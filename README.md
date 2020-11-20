@@ -1,5 +1,26 @@
 # Google AIY Voice Kit Provisioning Guide
 
+## Hard-coding Wifi SSID
+Location of the configuration file:
+> /etc/wpa_supplicant/wpa_supplicant.conf
+
+To edit this file, type
+> sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+The content of that file determines which SSID it will connect to automatically.
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=HK
+
+network={
+	ssid="SSID_NAME" <------- SSID Name
+	psk="SSID_PASSWORD" <---- SSID Password
+        scan_ssid=1 <------------ Add this line for hidden SSID
+	key_mgmt=WPA-PSK
+}
+```
+
 ## Getting MAC Address of Raspberry Pi
 ### Booting Raspberry Pi
 * Plug in the preconfigured SD card (Which uses a different image than AIY kit)
