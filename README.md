@@ -127,10 +127,18 @@ Note the MAC address and type **sudo poweroff** in the terminal to poweroff the 
 ## Provisioning Voice Kits
 
 ### Batch Restart
+Batch restart functionality is provided by the [reboot_all.sh](https://github.com/hyfung/Voice_kit_provisioning/blob/white/reboot_all.sh) script.
+
 TODO
 
 ### Batch Poweroff
+Batch poweroff functionality is provided by the [poweroff_all.sh](https://github.com/hyfung/Voice_kit_provisioning/blob/white/poweroff_all.sh) script.
+
 TODO
 
 ### Batch Reload Factory Config
-TODO
+TODOS
+* Define a factory config
+* Gzip everything into a tar.gz and store it somewhere safe locally
+* Write a script locally to unpack the tar.gz when invoked
+* Add a teacher script to invoke that local script remotely
