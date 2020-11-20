@@ -34,7 +34,7 @@ usb0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
 wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.0.193  netmask 255.255.255.0  broadcast 10.0.0.255
         inet6 fe80::2e51:706:3eec:e21b  prefixlen 64  scopeid 0x20<link>
-        ether b8:27:eb:c7:db:82  txqueuelen 1000  (Ethernet)                <--------- Refer to this line
+        ether b8:27:eb:c7:db:82  txqueuelen 1000  (Ethernet) <-------------- Refer to this line
         RX packets 1575  bytes 174284 (170.1 KiB)
         RX errors 0  dropped 617  overruns 0  frame 0
         TX packets 216  bytes 32030 (31.2 KiB)
