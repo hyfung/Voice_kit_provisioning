@@ -11,12 +11,46 @@
 |sudo poweroff|sudo poweroff|Used to turn off the kit gracefully|
 
 ## Installing Cloud API Keys
-Place the keys in your home directory `~/`
+Place the keys in your home directory `~/`.
+
+Please refer to the offical guide on how to obtain the keys.
 
 |Name|Description|
 |-|-|
 |cloud_speech.json|Used by Cloud Speech API|
 |assistant.json|Used by Google Assistant API|
+
+Sample file content
+
+> assistant.json
+```
+{
+    "installed": {
+        "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+        "project_id": "xxxxxxxxxxxxx",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "xxxxxxxxxxxxxxxxxxxxx"
+    }
+}
+```
+
+> cloud_speech.json
+```
+{
+    "type": "service_account",
+    "project_id": "xxxxxxx",
+    "private_key_id": "d1cc598e4aa1ec00faxxxxxxxxxxxxxxxx",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nxxxxxxxxxxxxxxx\n-----END PRIVATE KEY-----\n",
+    "client_email": "xxxxxxx@hxxxxx.iam.gserviceaccount.com",
+    "client_id": "1004536440539xxxxxxxx",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/xxxxxxxxxxn.iam.gserviceaccount.com"
+}
+```
 
 ## Hard-coding Wifi SSID
 Location of the configuration file:
