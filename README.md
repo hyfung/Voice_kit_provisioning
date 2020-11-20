@@ -79,7 +79,7 @@ Reboot the Raspberry Pi to see the effect
 
 ## Getting MAC Address of Raspberry Pi
 ### Booting Raspberry Pi
-* Plug in the preconfigured SD card (Which uses a different image than AIY kit)
+* Plug in the preconfigured SD card (For faster loading time another image has been used)
 * Plug in other necessary cables
 * Plug in the power cable
 * A green LED should be flashing during boot up
