@@ -1,5 +1,15 @@
 # Google AIY Voice Kit Provisioning Guide
 
+## Five Basic Command
+
+|Cmd|Usage|Explanation|
+|-|-|-|
+|ls|ls|Show contents of current folder|
+|cd|cd `FOLDER`|Used to navigate in terminal|
+|python3|python3 `script.py`|Used to run a python script|
+|nano|nano `filename`|A simple text editor|
+|sudo poweroff|sudo poweroff|Used to turn off the kit gracefully|
+
 ## Hard-coding Wifi SSID
 Location of the configuration file:
 > /etc/wpa_supplicant/wpa_supplicant.conf
