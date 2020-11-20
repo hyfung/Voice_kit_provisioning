@@ -49,4 +49,13 @@ The mac address is in the form of xx:xx:xx:xx:xx:xx which corresponds to **b8:27
 
 Note the MAC address and type **sudo poweroff** in the terminal to poweroff the AIY kit
 
+## Provisioning Voice Kits
 
+### Batch Restart
+TODO
+
+### Batch Poweroff
+TODO
+
+### Batch Reload Factory Config
+TODO
