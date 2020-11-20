@@ -8,10 +8,8 @@
 * A green LED should be flashing during boot up
 * When finish the screen should display a terminal ready for command
 
-When the terminal is ready, type
+When the terminal is ready, type the following line and press enter to execute
 > ifconfig
-
-then press enter
 
 Your screen should display
 
