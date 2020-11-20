@@ -10,6 +10,14 @@
 |nano|nano `filename`|A simple text editor|
 |sudo poweroff|sudo poweroff|Used to turn off the kit gracefully|
 
+## Installing Cloud API Keys
+Place the keys in your home directory `~/`
+
+|Name|Description|
+|-|-|
+|cloud_speech.json|Used by Cloud Speech API|
+|assistant.json|Used by Google Assistant API|
+
 ## Hard-coding Wifi SSID
 Location of the configuration file:
 > /etc/wpa_supplicant/wpa_supplicant.conf
