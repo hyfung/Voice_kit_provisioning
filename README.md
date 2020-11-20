@@ -1,5 +1,5 @@
 # Google AIY Voice Kit Provisioning Guide
-[Official Website of AIY Voice Kit]https://aiyprojects.withgoogle.com/voice/
+Refer to this page for official support: https://aiyprojects.withgoogle.com/voice/
 
 ## Five Basic Command
 
