@@ -21,6 +21,9 @@ network={
 }
 ```
 
+Reboot the Raspberry Pi to see the effect
+> sudo reboot
+
 ## Getting MAC Address of Raspberry Pi
 ### Booting Raspberry Pi
 * Plug in the preconfigured SD card (Which uses a different image than AIY kit)
