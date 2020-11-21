@@ -1,9 +1,5 @@
 #!/bin/bash
+# This script should be executed by root using cron @reboot
 
-ifconfig wlan0 
-grep ether
-cut line by whitespace and get 2nd result
-
-echo that value to host name
-
-this script should be ran by root
+MAC=$(ifconfig wlan0  | grep ether | grep -o '[0-9a-f]\+\:[0-9a-f]\+\:[0-9a-f]\+\:[0-9a-f]\+\:[0-9a-f]\+\:[0-9a-f]\+' | sed -r 's/://g')
+echo $MAC > /etc/hostname
