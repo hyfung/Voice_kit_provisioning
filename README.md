@@ -82,8 +82,11 @@ Reboot the Raspberry Pi to see the effect
 * Plug in the preconfigured SD card (For faster loading time another image has been used)
 * Plug in other necessary cables
 * Plug in the power cable
-* A green LED should be flashing during boot up
+* A green LED should be flashing during boot up, this should take less than 2 minutes
 * When finish the screen should display a terminal ready for command
+* Login with
+  * Username: 'pi'
+  * Password: 'raspberry'
 
 When the terminal is ready, type the following line and press enter to execute
 > ifconfig
