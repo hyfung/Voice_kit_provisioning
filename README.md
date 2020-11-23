@@ -14,7 +14,7 @@ Refer to this page for official support: https://aiyprojects.withgoogle.com/voic
 ## Installing Cloud API Keys
 Place the keys in your home directory `~/`.
 
-Please refer to the offical guide on how to obtain the keys.
+Please refer to the [offical guide](https://aiyprojects.withgoogle.com/voice/#google-assistant--get-credentials) on how to obtain the keys.
 
 |Name|Description|
 |-|-|
