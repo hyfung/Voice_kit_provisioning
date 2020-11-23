@@ -151,12 +151,12 @@ Note the MAC address and type **sudo poweroff** in the terminal to poweroff the 
 ### Batch Restart
 Batch restart functionality is provided by the [reboot_all.sh](https://github.com/hyfung/Voice_kit_provisioning/blob/white/reboot_all.sh) script.
 
-TODO
+> for i in 192.168.0.{1..254}; do ssh pi@${i} sudo reboot; done;
 
 ### Batch Poweroff
 Batch poweroff functionality is provided by the [poweroff_all.sh](https://github.com/hyfung/Voice_kit_provisioning/blob/white/poweroff_all.sh) script.
 
-TODO
+> for i in 192.168.0.{1..254}; do ssh pi@${i} sudo poweroff; done;
 
 ### Batch Reload Factory Config
 TODOS
