@@ -1,5 +1,9 @@
 # Google AIY Voice Kit Provisioning Guide
-Refer to this page for official support: https://aiyprojects.withgoogle.com/voice/
+Visit https://aiyprojects.withgoogle.com/voice/ for the following FAQs
+
+* Assembling instructions
+* Obtaining official software and preparing SD card
+* Sample code and developer tools
 
 ## Five Basic Command
 
