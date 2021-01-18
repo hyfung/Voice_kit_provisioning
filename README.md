@@ -163,6 +163,10 @@ The mac address is in the form of xx:xx:xx:xx:xx:xx which corresponds to **b8:27
 
 Note the MAC address and type **sudo poweroff** in the terminal to poweroff the AIY kit
 
+## Automatic Hostname Changer
+* Write a Python script to dynamicly update `/etc/hostname`
+* If `$(cat /etc/hostname) != $HOSTNAME` then reboot
+
 ## Provisioning Voice Kits
 
 ### Batch Restart
