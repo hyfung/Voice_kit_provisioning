@@ -65,7 +65,7 @@ To edit this file, type
 > sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
 The content of that file determines which SSID it will connect to automatically.
-```
+```bash
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=HK
@@ -75,6 +75,19 @@ network={
 	psk="SSID_PASSWORD" <---- SSID Password
         scan_ssid=1 <------------ Add this line for hidden SSID
 	key_mgmt=WPA-PSK
+}
+```
+
+Another way is to place this file in `/boot/wpa_supplicant.conf`
+
+```bash
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=<Insert 2 letter ISO 3166-1 country code here>
+
+network={
+ ssid="<Name of your wireless LAN>"
+ psk="<Password for your wireless LAN>"
 }
 ```
 
