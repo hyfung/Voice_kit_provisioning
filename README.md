@@ -167,6 +167,13 @@ Note the MAC address and type **sudo poweroff** in the terminal to poweroff the 
 * Write a Python script to dynamicly update `/etc/hostname`
 * If `$(cat /etc/hostname) != $HOSTNAME` then reboot
 
+```bash
+if [ $(cat /etc/hostname) != $HOSTNAME ]
+then
+  sudo reboot
+fi
+```
+
 ## Provisioning Voice Kits
 
 ### Batch Restart
